@@ -6,5 +6,3 @@ def test_existence_button_add_to_basket(browser):
     time.sleep(30)
     button = browser.find_element_by_css_selector(".btn-add-to-basket")
     assert button is not None, "Button not found!"
-
-
